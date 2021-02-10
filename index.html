@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Assignment 8</title>
+</head>
+<body>
+    <div class="game-container">
+        <span class="heading">
+            <div class="game-title">2048 Game</div>
+            <div class="score-container">
+                <span id = "score"> Score: 0</span>
+            </div>
+        </span>
+
+        <p class="game-rules">Join the numbers using the arrow keys to get to the <strong>2048</strong> tile!</p>
+
+        
+
+        <div id="result"></div>
+
+        <div class="game-board">
+            <div class="grid-cell" id="cell0"></div>
+            <div class="grid-cell" id="cell1"></div>
+            <div class="grid-cell" id="cell2"></div>
+            <div class="grid-cell" id="cell3"></div>
+              
+            <div class="grid-cell" id="cell4"></div>
+            <div class="grid-cell" id="cell5"></div>
+            <div class="grid-cell" id="cell6"></div>
+            <div class="grid-cell" id="cell7"></div>
+         
+            <div class="grid-cell" id="cell8"></div>
+            <div class="grid-cell" id="cell9"></div>
+            <div class="grid-cell" id="cell10"></div>
+            <div class="grid-cell" id="cell11"></div>
+         
+              
+            <div class="grid-cell" id="cell12"></div>
+            <div class="grid-cell" id="cell13"></div>
+            <div class="grid-cell" id="cell14"></div>
+            <div class="grid-cell" id="cell15"></div>
+        </div>
+
+        <button class="button"  id="new-game">New Game</button>
+
+        <b id = "win"></b>
+        <b id = "lose"></b>
+
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="engine/game.js" type= "module"></script>
+    <script src="viewController.js" type="module"></script>
+
+</body>
+
+</html>
+
+  

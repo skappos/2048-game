@@ -1,0 +1,56 @@
+.game-container {
+    margin-left: 50%;
+    margin-right: -50%;
+}
+
+
+.heading {
+    display: inline-flex;
+}
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+    background-color:#bbada0;
+}
+
+.grid-cell {
+    width: 100px;
+    height: 100px;
+    border: 6px solid #bbada0;
+    background-color: #ccc0b3;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #5e5852;
+    font-family: monospace;
+}
+
+.game-title {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#766e66;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+
+.score-container {
+    width: 100px;
+    height: 40px;
+    background-color: #bbada0;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    padding-top: 20px;
+
+    position: relative; 
+    border: 6px solid #ccc0b3;
+}
+
+.button {
+    margin-top: 10px;
+    
+}
